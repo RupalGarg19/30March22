@@ -14,7 +14,7 @@ public class Task1 {
 	@BeforeTest
 	public void SetDriver() {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\browserdrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rupal.garg\\Desktop\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.navigate().to("https://www.ndtv.com/");  
 		driver.manage().window().maximize();
